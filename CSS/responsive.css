@@ -1,0 +1,377 @@
+/* ----------------- Mobile Phones (max 600px) ------------------ */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .nav-links a {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+
+  .logo img {
+    width: 150px;
+    transform: scale(1.2);
+  }
+
+
+
+
+
+  .hero {
+    flex-direction: column;
+    
+    text-align: center;
+   
+  }
+
+  .hero-right h1 {
+    font-size: 26px;
+  }
+
+  .hero-right p {
+    font-size: 14px;
+  }
+
+  .features {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .feature-box {
+    width: 100%;
+  
+  }
+
+
+
+
+
+   .why-choose-section {
+    padding: 50px 15px;
+    margin-top: 8px;
+    border-radius: 20px 20px 0 0;
+  }
+
+
+
+
+
+  .features-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .features-container {
+    grid-template-columns: 1fr; /* Only one column on small screens it takes 100% width */
+    gap: 20px;
+  }
+
+  .feature-card {
+    padding: 20px 12px;
+    font-size: 14px;
+  }
+
+  .feature-card i {
+    font-size: 28px;
+
+  }
+
+  .feature-card h3 {
+    font-size: 16px;
+  }
+
+  .feature-card p {
+    font-size: 13px;
+  }
+
+
+
+
+  .mental-awareness-section {
+    padding: 50px 15px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .section-subtitle {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .mental-card {
+    padding: 20px 15px;
+    font-size: 14px;
+  }
+
+
+
+
+ .self-defense-section {
+    padding: 50px 15px;
+  }
+
+  .defense-card {
+    padding: 25px 15px;
+  }
+
+  .defense-card h3 {
+    font-size: 16px;
+  }
+
+  .defense-card p {
+    font-size: 13px;
+  }
+
+
+
+
+  .prepare-section {
+    padding: 50px 15px;
+  }
+
+  .prepare-section .section-title {
+    font-size: 24px;
+  }
+
+  .prepare-card {
+    padding: 25px 15px;
+  }
+
+  .prepare-card h3 {
+    font-size: 16px;
+  }
+
+  .prepare-card p {
+    font-size: 13px;
+  }
+
+
+
+  .confidence-split {
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+
+  .confidence-left {
+    padding: 10px;
+  }
+
+  .confidence-right {
+    margin-top: 30px;
+  }
+
+  .confidence-left h2 {
+    font-size: 24px;
+  }
+
+  .confidence-left .subtitle {
+    font-size: 14px;
+  }
+
+
+
+
+  .point-block h3 {
+    font-size: 16px;
+  }
+
+  .point-block p {
+    font-size: 13px;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 15px;
+  }
+
+  .accessibility-section {
+    padding: 25px 20px;
+    text-align: center; 
+  }
+
+  .intro {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+
+
+
+
+
+  /* Right section (form)  */
+  .form-container {
+    padding: 25px 20px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .form-footer {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .footer-caption h2 {
+    font-size: 20px;
+  }
+
+  .footer-caption p {
+    font-size: 14px;
+  }
+
+  .footer-links h4,
+  .footer-newsletter h4 {
+    font-size: 16px;
+  }
+
+  .footer-links ul li {
+    margin-bottom: 10px;
+  }
+
+  .footer-links ul li a {
+    font-size: 14px;
+  }
+
+  .footer-newsletter input {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .footer-newsletter button {
+    font-size: 14px;
+  }
+
+  .footer-socials a {
+    font-size: 18px;
+    margin: 0 8px;
+  }
+
+  .footer-note {
+    font-size: 12px;
+  }
+
+
+
+
+  .arrow {
+    bottom: 15px;
+    right: 15px;
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+
+
+
+
+
+
+  .emergency-section {
+    padding: 30px 15px;
+  }
+
+  .emergency-section h2 {
+    font-size: 24px;
+  }
+
+  .emergency-section p {
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+
+  .emergency-actions {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .action-card {
+    width: 90%;
+    padding: 18px;
+  }
+
+  .action-card img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 12px;
+  }
+
+  .action-card h3 {
+    font-size: 17px;
+  }
+
+
+
+}
+
+
+/* ------------------ Tablets (600px to 1024px) ------------------ */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .navbar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+  }
+
+  .logo img {
+    width: 170px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .hero-right h1 {
+    font-size: 30px;
+  }
+
+  .hero-right p {
+    font-size: 15px;
+  }
+
+  .features {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 15px;
+  }
+
+  .feature-box {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+  .features-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .features-title {
+    font-size: 28px;
+  }
+
+}
